@@ -33,7 +33,7 @@ export const Products: CollectionConfig = {
       name: 'price',
       label: 'Price in USD',
       min: 0,
-      max: 1000000,
+      max: 1000,
       type: 'number',
       required: true,
     },
@@ -106,7 +106,7 @@ export const Products: CollectionConfig = {
       type: 'array',
       label: 'Product images',
       minRows: 1,
-      maxRows: 10,
+      maxRows: 4,
       required: true,
       labels: {
         singular: 'Image',
